@@ -1,3 +1,82 @@
 body{
-    background-color: aqua;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.section1{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+h1{
+    font-size: 45px;
+    margin-top: 0;
+}
+.highlight{
+    color: rgb(237, 63, 150);
+}
+.halfScreen{
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+img{
+    width: 100%;
+}
+.hireBtn{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(239, 21, 207),rgb(198, 34, 179));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.section2{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+p{
+    margin-bottom: 30px;
+}
+.headline{
+    text-align: center;
+}
+.sec3{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.works{
+    width: 30%;
+    padding: 1.5%;
+    display:inline-block;
+}
+.div4{
+    
+}
+.footer{
+    display: block;
+    margin: 100px auto;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+.box{
+    background-color: rgb(209, 60, 186);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.boxP{
+    width: 70%;
+    margin: 0 auto;
 }
